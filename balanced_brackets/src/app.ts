@@ -5,8 +5,6 @@ type BracketMap = {
 }
 
 export function areBracketsBalanced(input: string): boolean {
-
-
 	const charSet = ['(', '[', '{', '}', ']', ')'];
 	const hasInvalidCharacters = ![...input].every(char => charSet.includes(char));
 
