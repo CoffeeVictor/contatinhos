@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "app": "ts-node src/app.ts --transpile-only"
   },
   "keywords": [],
   "author": "",

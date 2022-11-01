@@ -42,3 +42,7 @@ export function areBracketsBalanced(input: string): boolean {
 
 	return true;
 }
+
+const inputString = process.argv[3];
+
+console.log(`A string '${inputString}' ${areBracketsBalanced(inputString) ? '' : 'NÃO'} é balanceada.`);
